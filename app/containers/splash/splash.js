@@ -24,7 +24,7 @@ class Splash extends Component {
                 <Text style = {styles.count}>{state.numbers === 5 ? Actions.SingInPageScreen() : state.numbers}</Text>
             </View>
         );
-    }
+    }    
 }
 
 export default connect(state => ({

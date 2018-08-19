@@ -14,8 +14,8 @@ const App = () => (
     <Provider store={store}>
         <Router>
           <Stack key="root">
-            <Scene key="SplashScreen" component={Splash} title="FirstScreen" initial/>
-            <Scene key="SingInPageScreen" component={SingInPage} title="SecondScreen"/>
+            <Scene key="SplashScreen" component={Splash} title="Count Screen" initial/>
+            <Scene key="SingInPageScreen" component={SingInPage} title="Input Form Screen"/>
           </Stack>
         </Router>
     </Provider>
